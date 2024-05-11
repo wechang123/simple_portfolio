@@ -26,7 +26,7 @@ setInterval(typing, 200);
 // 이미지 슬라이드
 let imgIndex = 0;
 let position = 0;
-const IMG_WIDTH = 438;
+const IMG_WIDTH = 400;
 const $btnPrev = document.querySelector(".btn-prev");
 const $btnNext = document.querySelector(".btn-next");
 const $slideImgs = document.querySelector(".slide-images");
