@@ -26,11 +26,17 @@ body::-webkit-scrollbar {
   right: 0;
   padding: 45px 60px;
   background-color: white;
-  color: #6a75ca;
+  color: #83e7f6;
   font-size: 18px;
   /* border-bottom: 1px solid #e0e3fd; */
   z-index: 10;
 }
+/* styles.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-list {
   display: flex;
   justify-content: right;
@@ -45,14 +51,14 @@ body::-webkit-scrollbar {
 .btn-code {
   padding: 8px 23px;
   border-radius: 20px;
-  background-color: #6a75ca;
-  border: solid 2px #6a75ca;
+  background-color: #83e7f6;
+  border: solid 2px #83e7f6;
   color: white;
 }
 .btn-code:hover {
   background-color: white;
-  border: solid 2px #6a75ca;
-  color: #6a75ca;
+  border: solid 2px #83e7f6;
+  color: #83e7f6;
   transition: 0.2s ease-out;
 }
 .bar-bg {
@@ -68,7 +74,7 @@ body::-webkit-scrollbar {
   height: 5px;
   bottom: 0;
   left: 0;
-  background-color: #6a75ca;
+  background-color: #83e7f6;
 }
 
 /* intro섹션 */
@@ -86,7 +92,7 @@ body::-webkit-scrollbar {
   margin-top: 30px;
   font-size: 55px;
   font-family: "GmarketBold";
-  color: #6a75ca;
+  color: #83e7f6;
   line-height: 58px;
 }
 .btn-more {
@@ -94,16 +100,16 @@ body::-webkit-scrollbar {
   bottom: 36%;
   padding: 8px 27px;
   border-radius: 20px;
-  background-color: #6a75ca;
-  border: solid 2px #6a75ca;
+  background-color: #83e7f6;
+  border: solid 2px #83e7f6;
   color: white;
   font-size: 18px;
   margin-top: 40px;
 }
 .btn-more:hover {
   background-color: white;
-  border: solid 2px #6a75ca;
-  color: #6a75ca;
+  border: solid 2px #83e7f6;
+  color: #83e7f6;
   transition: 0.7s ease-out;
 }
 
@@ -120,7 +126,7 @@ body::-webkit-scrollbar {
   margin: 0 auto 100px;
   display: inline-block;
   font-family: "GmarketBold";
-  color: #6a75ca;
+  color: #83e7f6;
   font-size: 40px;
 }
 .cont-about {
@@ -152,7 +158,7 @@ body::-webkit-scrollbar {
 .btn-next:focus {
   position: absolute;
   padding: 8px 8px 7px 14px;
-  background-color: #6a75ca;
+  background-color: #83e7f6;
   color: white;
   border: none;
   font-size: 18px;
@@ -163,7 +169,7 @@ body::-webkit-scrollbar {
 .btn-prev:focus {
   position: absolute;
   padding: 8px 14px 7px 8px;
-  background-color: #6a75ca;
+  background-color:#83e7f6;
   color: white;
   border: none;
   font-size: 20px;
@@ -177,7 +183,7 @@ body::-webkit-scrollbar {
 .btn-prev:hover {
   cursor: pointer;
   background-color: white;
-  color: #6a75ca;
+  color: #83e7f6;
   transition: 0.7s ease-out;
 }
 .btn-prev {
@@ -197,7 +203,7 @@ body::-webkit-scrollbar {
   width: 110px;
   font-size: 22px;
   font-family: "GmarketBold";
-  color: #6a75ca;
+  color: #83e7f6;
 }
 .txt-about {
   margin-top: 55px;
@@ -214,7 +220,7 @@ body::-webkit-scrollbar {
   height: 140px;
   margin: 0 45px 0 0;
   border-radius: 100%;
-  background-color: #6a75ca;
+  background-color: #83e7f6;
   border: none;
   color: white;
   font-size: 18px;
@@ -222,7 +228,7 @@ body::-webkit-scrollbar {
 .btn-about button:hover {
   cursor: pointer;
   background-color: #c4c8f1;
-  color: #868ecf;
+  color: #83e7f6;
   /* border: 2px solid #6a75ca; */
   transition: 0.5s ease-out;
 }
@@ -243,7 +249,7 @@ body::-webkit-scrollbar {
   margin: 0 auto;
   display: inline-block;
   font-family: "GmarketBold";
-  color: #6a75ca;
+  color: #83e7f6;
   font-size: 40px;
   margin-bottom: 40px;
 }
@@ -268,15 +274,15 @@ body::-webkit-scrollbar {
   padding: 10px 172px;
   border-radius: 15px;
   border: none;
-  background-color: #6a75ca;
-  border: solid 2px #6a75ca;
+  background-color: #83e7f6;
+  border: solid 2px #83e7f6;
   color: white;
   font-size: 20px;
 }
 .btn-detail:hover {
   background-color: white;
-  border: solid 2px #6a75ca;
-  color: #6a75ca;
+  border: solid 2px #83e7f6;
+  color: #83e7f6;
 }
 .txt-project {
   text-align: left;
@@ -290,7 +296,7 @@ body::-webkit-scrollbar {
 }
 .txt-project dl dt {
   font-family: "GmarketBold";
-  color: #6a75ca;
+  color: #83e7f6;
   font-size: 22px;
   margin-bottom: 6px;
 }
@@ -305,7 +311,7 @@ body::-webkit-scrollbar {
 }
 #footer h2 {
   font-family: "GmarketBold";
-  color: #6a75ca;
+  color: #83e7f6;
   font-size: 40px;
   margin-bottom: 50px;
 }
@@ -331,7 +337,7 @@ body::-webkit-scrollbar {
   width: 65px;
 }
 .box-footer p {
-  color: #6a75ca;
+  color: #83e7f6;
   margin-top: 50px;
 }
 
@@ -361,7 +367,7 @@ body::-webkit-scrollbar {
 .modal h3 {
   margin: 40px 0 7px 0;
   font-size: 25px;
-  color: #6a75ca;
+  color: #83e7f6;
   font-family: "GmarketBold";
 }
 .modal h4 {
@@ -381,14 +387,14 @@ body::-webkit-scrollbar {
 .btn-close {
   padding: 8px 140px;
   margin: 25px 0 35px 0;
-  background-color: #6a75ca;
+  background-color: #83e7f6;
   border-radius: 10px;
   border: none;
   color: white;
 }
 .btn-close:hover {
   background-color: white;
-  color: #6a75ca;
+  color: #83e7f6;
   transition: 0.3s ease-out;
   cursor: pointer;
 }
